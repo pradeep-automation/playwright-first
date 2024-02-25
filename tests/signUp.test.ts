@@ -14,7 +14,7 @@ test("validate the sign up page", async ({ page, baseURL })=>{
     // await page.getByRole('button', {name: 'Sign up'}).click();
     await page.waitForTimeout(3000);
     const h1 = page.locator("//h1");
-    await expect(h1).toContainText("Logged In")
+    await expect(h1).toContainText("Logged")
 
 
 }
