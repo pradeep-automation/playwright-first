@@ -25,7 +25,7 @@ export default defineConfig({
   use: {
     // baseURL: "https://onboarding.speechify.com/",
     baseURL: "https://practicetestautomation.com/practice-test-login/",
-    headless: false,
+    headless: true,
     launchOptions: {
        "slowMo": 1000
     },
