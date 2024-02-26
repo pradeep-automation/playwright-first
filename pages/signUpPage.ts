@@ -17,4 +17,7 @@ export default class SignUpPage{
         await this.page.getByRole('button', {name: 'Submit'}).click();
     }
 
+
+    
+
 }
