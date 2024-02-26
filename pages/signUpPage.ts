@@ -5,8 +5,8 @@ export default class SignUpPage{
         this.page = page;
     }
 
-    async enterEmail(email: string){
-        await this.page.locator("//input[@id='username']").fill(email);
+    async enterEmail(user: string){
+        await this.page.locator("//input[@id='username']").fill(user);
     }
 
     async enterPassword(password: string){
